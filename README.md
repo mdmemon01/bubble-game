@@ -8,8 +8,6 @@ A fun and interactive **Bubble Game** built with **HTML**, **CSS**, and **JavaSc
 - A great project to learn and practice **DOM manipulation**.  
 - Demonstrates the concept of **Event Bubbling** in JavaScript.  
 
-## 🎥 Preview  
-Watch the game in action here: [Insert video link or upload demo GIF]  
 
 ## 📂 Project Structure  
 - **index.html**: The core structure of the game.  
