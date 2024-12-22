@@ -1,0 +1,97 @@
+/* import font  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+/* Base Stylings are Getting Started From here  */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #fff;
+}
+
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+
+#main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(139, 209, 139);
+}
+
+
+#pannel{
+    width: 80%;
+    height: 80%;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+
+#ptop{
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 25%;
+    display: flex;
+    color: #fff;
+    display: flex;
+    width: 100%;
+    height: 100px;
+    background-color: rgb(12, 105, 12);
+}
+
+.elem{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap: 10px;
+}
+.box{
+    font-weight: 600;
+    color: rgb(27, 39, 13);
+    padding: 10px 20px;
+    background-color: white;
+    border-radius: 5px;
+    font-size: 25px;
+}
+#pbtm h1{
+    color: black;
+}
+#pbtm{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 100%;
+    height: calc(100% - 100px);
+    padding: 20px;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.bubble{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-weight: 500;
+    font-size: 22px;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(139, 209, 139);
+    border-radius: 50%;
+}
+
+.bubble:hover{
+    cursor: pointer;
+    background-color: rgb(88, 172, 88);
+}
